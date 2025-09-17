@@ -1,0 +1,59 @@
+.suggestion-outer-ctn {
+  margin-left: 90px;
+  margin-top: 20px;
+  width: 300px;              /* restrict width */
+  font-family: Arial, sans-serif;
+}
+
+.suggestion-ctn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.suggestion-profile-ctn {
+  display: flex;
+  align-items: center;       /* align img + text center */
+  flex-direction: row;
+  gap: 10px;
+}
+
+.pic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;        /* round profile image */
+  object-fit: cover;
+}
+
+.switch-ctn {
+  margin-left: 30px;         /* push to right side */
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.suggestion-text-ctn {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestion-text-ctn h1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+}
+
+.suggestion-text-ctn b {
+  font-size: 13px;
+  color: #333;
+  cursor: pointer;
+}
+
+.follow {
+   margin-left: 60px;         /* push to right side */
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+}

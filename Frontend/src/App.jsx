@@ -1,13 +1,14 @@
 import React from 'react'
 import NavBar from './Components/NavComponent/NavBar'
 import Posts from './Components/FeedComponent/Posts'
+import SuggestionComponent from './Components/SuggestionComponent/SuggestionComponent'
 
 export default function App() {
   return (
     <div className='home-ctn'>
       <div className='sidebar-ctn'><NavBar/></div>
       <div className='post-ctn'><Posts/></div>
-      <div className='suggestion-ctn'>Suggestion</div>
+      <div className='suggestion-ctn'><SuggestionComponent/></div>
     </div>
   )
 }
