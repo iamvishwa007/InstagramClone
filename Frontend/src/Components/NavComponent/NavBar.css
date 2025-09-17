@@ -1,0 +1,26 @@
+.Nav-ctn{
+    display: flex;
+    flex-direction: column; 
+}
+
+.NavUpper-ctn{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.NavUpper-ctn img{
+    width: 200px;
+    display: flex;
+}
+
+.NavBottom-ctn{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+}
+.icons-ctn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

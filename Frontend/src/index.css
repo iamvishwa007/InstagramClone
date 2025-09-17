@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home-ctn{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+.sidebar-ctn{
+  width: 20%;
+  padding: 30px;
+}
+.post-ctn
+{
+  width: 50%;
+  background-color: bisque;
+}
+.suggestion-ctn{
+  width: 30%;
+
+}
