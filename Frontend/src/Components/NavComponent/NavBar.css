@@ -1,12 +1,13 @@
 .Nav-ctn{
     display: flex;
     flex-direction: column; 
+    position: fixed;
 }
 
 .NavUpper-ctn{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
 }
 .NavUpper-ctn img{
     width: 200px;
@@ -16,11 +17,20 @@
 .NavBottom-ctn{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
     margin-top: 100px;
 }
 .icons-ctn{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    padding: 8px 12px;     
+    border-radius: 10px;   
+    transition: all 0.3s ease-in-out;
+}
+
+.icons-ctn:hover{
+    background-color: grey;
+    cursor: pointer;
+    transform: scale(1.05);     
 }

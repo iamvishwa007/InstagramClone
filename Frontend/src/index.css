@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+ 
+  
 }
 
 .home-ctn{
@@ -18,9 +20,18 @@
 .post-ctn
 {
   width: 50%;
-  background-color: bisque;
+  
 }
 .suggestion-ctn{
   width: 30%;
 
+}
+
+
+.Posts-ctn{
+  display: flex;
+  flex-direction: column;
+}
+.Postspost-ctn{
+  margin-top: 10px;
 }

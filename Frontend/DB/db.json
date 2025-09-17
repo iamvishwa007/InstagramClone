@@ -1,0 +1,114 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 1,
+        "username": "iam_vish_wa.-",
+        "profile_pic": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "caption": "Beautiful evening vibes 🌆",
+      "likes": "152",
+      "comments": [
+        {
+          "user": "alex_09",
+          "comment": "Wow, stunning shot! 🔥"
+        },
+        {
+          "user": "naturelover",
+          "comment": "Where is this place? 😍"
+        }
+      ],
+      "timestamp": "2025-09-15T18:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 2,
+        "username": "tech_guy",
+        "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
+      },
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "caption": "Late-night coding session 💻☕",
+      "likes": "98",
+      "comments": [
+        {
+          "user": "coderqueen",
+          "comment": "Keep hustling bro! 💪"
+        },
+        {
+          "user": "dev_world",
+          "comment": "I feel this 😂"
+        }
+      ],
+      "timestamp": "2025-09-16T22:15:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 3,
+        "username": "foodie_life",
+        "profile_pic": "https://randomuser.me/api/portraits/women/25.jpg"
+      },
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+      "caption": "Best pizza in town 🍕🤤",
+      "likes": "234",
+      "comments": [
+        {
+          "user": "hungry_man",
+          "comment": "I need this right now!"
+        },
+        {
+          "user": "chef_sam",
+          "comment": "That crust looks amazing 🔥"
+        }
+      ],
+      "timestamp": "2025-09-14T13:45:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 4,
+        "username": "travel_addict",
+        "profile_pic": "https://randomuser.me/api/portraits/men/60.jpg"
+      },
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "caption": "Lost in paradise 🌴🌊",
+      "likes": "312",
+      "comments": [
+        {
+          "user": "globe_trotter",
+          "comment": "Take me with you next time 😂"
+        },
+        {
+          "user": "sun_chaser",
+          "comment": "This is goals ❤️"
+        }
+      ],
+      "timestamp": "2025-09-12T09:20:00Z"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 5,
+        "username": "fitness_freak",
+        "profile_pic": "https://randomuser.me/api/portraits/women/55.jpg"
+      },
+      "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1",
+      "caption": "Morning workout grind 💪🔥",
+      "likes": "420",
+      "comments": [
+        {
+          "user": "healthylife",
+          "comment": "Inspiration! 👏"
+        },
+        {
+          "user": "strong_mind",
+          "comment": "Respect for the discipline 🔥"
+        }
+      ],
+      "timestamp": "2025-09-10T06:10:00Z"
+    }
+  ]
+}

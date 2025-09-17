@@ -1,0 +1,31 @@
+.post-ctn{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.toppost-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.image-ctn{
+    height: 300px;
+    width: 400px;
+}
+.header-ctn{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+.header-ctn img{
+    height: 30px;
+}
+.icon-ctn{
+    display: flex;
+    gap: 5px;
+}
+.caption-ctn{
+    margin-bottom: 6px;
+}
