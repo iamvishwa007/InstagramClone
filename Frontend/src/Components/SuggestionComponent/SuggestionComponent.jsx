@@ -35,7 +35,7 @@ export default function SuggestionComponent() {
             </div>
 
            {suggestion.map((s)=> 
-           <div className='suggestion-profile-ctn'>
+           <div key={s.id} className='suggestion-profile-ctn'>
                 <img className="pic" src={s.profile_pic} alt="profile" />
                 <h5>{s.username}</h5>
                 <p className='follow'>Follow</p>

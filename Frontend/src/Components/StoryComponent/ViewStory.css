@@ -1,0 +1,38 @@
+.viewst-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  position: relative;
+  background-color: #000; 
+}
+
+.story-img {
+  max-height: 80vh;
+  max-width: 60vw;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
+}
+
+.arrow:hover {
+  background: rgba(255, 255, 255, 0.9);
+}

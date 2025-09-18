@@ -118,7 +118,7 @@
   },
   "suggestions":[
     {
-       "id": 2,
+       "id": 6,
         "username": "tech_guy",
         "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
     },
@@ -128,14 +128,52 @@
         "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
     },
     {
-       "id": 2,
+       "id": 3,
         "username": "tech_guy",
         "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
     },
     {
-       "id": 2,
+       "id": 4,
         "username": "tech_guy",
         "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profilePic": "https://randomuser.me/api/portraits/men/11.jpg"
+      },
+      "image": "https://picsum.photos/id/237/400/600"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "emma_watson",
+        "profilePic": "https://randomuser.me/api/portraits/women/12.jpg"
+      },
+      "image": "https://picsum.photos/id/238/400/600"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "alex_smith",
+        "profilePic": "https://randomuser.me/api/portraits/men/13.jpg"
+      },
+      "image": "https://picsum.photos/id/239/400/600"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "sophia_j",
+        "profilePic": "https://randomuser.me/api/portraits/women/14.jpg"
+      },
+      "image": "https://picsum.photos/id/240/400/600"
     }
   ]
 }
