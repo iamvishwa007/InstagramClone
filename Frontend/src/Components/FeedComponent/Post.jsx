@@ -13,7 +13,7 @@ export default function Post() {
     return (
     <div className='toppost-ctn'>    
 
-        {posts.length==0? <img src='assets/Loading.gif' alt='Loading'/> : 
+        {posts.length==0? <img className="postloading-ctn" src='assets/ModernLoading.gif' alt='Loading'/> : 
         (
         posts.map((post)=>(
          <div key={post.id} className='post-ctn'>

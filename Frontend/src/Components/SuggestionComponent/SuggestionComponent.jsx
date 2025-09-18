@@ -6,7 +6,7 @@ export default function SuggestionComponent() {
  const[profile,setProfile]=useState({});
  const[suggestion,setSuggestion]=useState([]);
  useEffect(()=>{
-    fetch("http://localhost:3000/profiel")
+    fetch("http://localhost:3000/profile")
     .then((res)=> res.json())
     .then((data)=> setProfile(data))
     .catch((error)=> console.log(error));
@@ -20,7 +20,9 @@ export default function SuggestionComponent() {
 
   return (
     <div className='suggestion-outer-ctn'>
+          { profile && profile.username  ?(
         <div className='suggestion-ctn'>
+
             <div className='suggestion-profile-ctn'>
                 <img className="pic" src={profile.profile_pic} alt="profile" />
                 <h5>{profile.username}</h5>
@@ -32,13 +34,16 @@ export default function SuggestionComponent() {
                 <b>See All</b>
             </div>
 
-           {suggestion.map((s)=> <div className='suggestion-profile-ctn'>
+           {suggestion.map((s)=> 
+           <div className='suggestion-profile-ctn'>
                 <img className="pic" src={s.profile_pic} alt="profile" />
                 <h5>{s.username}</h5>
                 <p className='follow'>Follow</p>
             </div>
-)}
+            )}
+
         </div>
+         ): <img className="Loadingass-ctn" src='assets/ModernLoading.gif' alt='LOading..' />}
     </div>
   )
 }

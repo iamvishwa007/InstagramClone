@@ -1,7 +1,7 @@
 .suggestion-outer-ctn {
   margin-left: 90px;
   margin-top: 20px;
-  width: 300px;              /* restrict width */
+  width: 300px;              
   font-family: Arial, sans-serif;
 }
 
@@ -13,7 +13,7 @@
 
 .suggestion-profile-ctn {
   display: flex;
-  align-items: center;       /* align img + text center */
+  align-items: center;       
   flex-direction: row;
   gap: 10px;
 }
@@ -21,12 +21,12 @@
 .pic {
   width: 35px;
   height: 35px;
-  border-radius: 50%;        /* round profile image */
+  border-radius: 50%;        
   object-fit: cover;
 }
 
 .switch-ctn {
-  margin-left: 30px;         /* push to right side */
+  margin-left: 30px;         
   color: #007bff;
   font-size: 14px;
   cursor: pointer;
@@ -52,8 +52,14 @@
 }
 
 .follow {
-   margin-left: 60px;         /* push to right side */
+   margin-left: 60px;         
   color: #007bff;
   font-size: 14px;
   cursor: pointer;
+}
+.Loadingass-ctn{
+  width: 100px;
+  padding: 20px;
+  margin-top: 60px;
+  margin-left: 60px;
 }

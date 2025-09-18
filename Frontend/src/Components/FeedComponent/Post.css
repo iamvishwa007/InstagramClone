@@ -6,13 +6,14 @@
 .toppost-ctn{
     display: flex;
     flex-direction: column;
+    margin-right: 130px;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 .image-ctn{
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
 }
 .header-ctn{
  display: flex;
@@ -28,4 +29,8 @@
 }
 .caption-ctn{
     margin-bottom: 6px;
+}
+.postloading-ctn{
+    margin-top: 30px;
+    width: 70%;
 }
