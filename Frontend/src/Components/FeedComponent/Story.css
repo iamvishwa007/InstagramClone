@@ -1,16 +1,23 @@
 .story-ctn {
   width: 100%;
-  height: 100px;
+  height: 120px;
   display: flex;
   gap: 10px;    
   align-items: center;
+   overflow-x: auto;   /* enables horizontal scroll for the extra stories */
+  overflow-y: hidden;
+  white-space: nowrap; /* keep items in one line */
+  padding: 5px 6px;   /* small padding to avoid clipping */
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+  scrollbar-width: none; 
+ 
 }
-
 .story-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  margin-top: 8px;
   cursor: pointer;
 }
 

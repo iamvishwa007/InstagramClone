@@ -28,13 +28,15 @@
 .Posts-ctn{
   display: flex;
   flex-direction: column;
+  
 }
 .Postspost-ctn{
   margin-top: 10px;
   width: 700px;
 }
-.Storystory-ctn{
-  margin-top: 10px;
+ .Storystory-ctn{
+  margin-top: 15px;
   margin-bottom: 10px;
-  margin-left: 30px;
+  margin-left: 80px;
+  width: 640px;         
 }

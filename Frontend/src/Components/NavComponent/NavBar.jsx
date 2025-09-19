@@ -1,8 +1,10 @@
 import React from 'react'
 import './NavBar.css'
-
+import { useNavigate } from 'react-router-dom'
 
 export default function NavBar() {
+   const navigate=useNavigate();
+
   return (
      <div className='Nav-ctn'>
         <div className='NavUpper-ctn'>
@@ -15,7 +17,9 @@ export default function NavBar() {
             <div className='icons-ctn'><i className="bi bi-heart-fill"></i>Notifications</div>
             <div className='icons-ctn'><i className="bi bi-plus-square-fill"></i>Create</div>
             <div className='icons-ctn'><i className="bi bi-speedometer"></i>DashBoard</div>
-            <div className='icons-ctn'><i className="bi bi-person-circle"></i>Profile</div>
+            <div onClick={()=>{
+               navigate('/profile')
+            }} className='icons-ctn'><i className="bi bi-person-circle"></i>Profile</div>
         </div>
         <div className='NavBottom-ctn'>
            <div className='icons-ctn'> <i className="bi bi-list"></i>More</div>
