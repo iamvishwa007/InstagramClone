@@ -2,10 +2,13 @@
 
 .profile-out {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 40px;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   color: #262626;
+  gap: 10px;
 }
 
 .profile-in {
@@ -17,6 +20,22 @@
   padding: 50px;
   border: 1px solid #dbdbdb;
   border-radius: 12px;
+}
+
+.followerList-ctn{
+
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.followerList-ctn h4{
+  text-align: center;
 }
 
 .profile-ctn {
@@ -82,3 +101,14 @@ input[type='text'] {
 input[type='text']:focus {
   border-color: #0095f6;
 }
+.followerin-ctn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.followerin-ctn img{
+  width: 50px;
+  border-radius: 50%;
+}
+

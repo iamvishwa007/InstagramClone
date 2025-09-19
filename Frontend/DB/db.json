@@ -117,23 +117,18 @@
   },
   "suggestions": [
     {
-      "id": "6",
-      "username": "tech_guy",
-      "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
-    },
-    {
       "id": "2",
-      "username": "tech_guy",
+      "username": "mass_v",
       "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
     },
     {
       "id": "3",
-      "username": "tech_guy",
+      "username": "iam_v",
       "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
     },
     {
       "id": "4",
-      "username": "tech_guy",
+      "username": "hey_chello",
       "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
     }
   ],
@@ -213,13 +208,23 @@
   ],
   "followers": [
     {
-      "id": "1",
+      "id": "10",
       "username": "fitness_freak",
       "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
     },
     {
-      "id": "2",
-      "username": "emma_watson",
+      "id": "20",
+      "username": "fitness_freak",
+      "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "id": "30",
+      "username": "fitness_freak",
+      "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "id": "6",
+      "username": "tech_guy",
       "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
     }
   ]
